@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Item : MonoBehaviour
@@ -25,8 +26,13 @@ public class Item : MonoBehaviour
         return true;
     }
 
-    protected void Use()
+    public void SetEnable(bool isEnable) 
     {
-        Debug.Log("Use");
+        gameObject.SetActive(isEnable);
+    }
+
+    protected virtual void Use()
+    {
+        throw new NotImplementedException();
     }
 }
