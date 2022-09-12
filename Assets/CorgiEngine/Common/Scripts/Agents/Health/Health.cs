@@ -85,9 +85,13 @@ namespace MoreMountains.CorgiEngine
 		[Tooltip("should the sprite (if there's one) flicker when getting damage ?")]
 		public bool FlickerSpriteOnHit = true;
 
-		/// the color the sprite should flicker to
-		[Tooltip("the color the sprite should flicker to")] [MMCondition("FlickerSpriteOnHit", true)]
-		public Color FlickerColor = new Color32(255, 20, 20, 255);
+		/// the color the sprite should flicker to on damage
+		[Tooltip("the color the sprite should flicker to on damage")] [MMCondition("FlickerSpriteOnHit", true)]
+		public Color DamageFlickerColor = new Color32(255, 20, 20, 255);
+
+		/// the color the sprite should flicker to on heal
+		[Tooltip("the color the sprite should flicker to on heal")] [MMCondition("FlickerSpriteOnHit", true)]
+		public Color HealFlickerColor = new Color32(20, 255, 20, 255);
 
 		/// whether or not this object can get knockback
 		[Tooltip("whether or not this object can get knockback")]
@@ -359,7 +363,7 @@ namespace MoreMountains.CorgiEngine
 		public virtual void Damage(float damage, GameObject instigator, float flickerDuration,
 			float invincibilityDuration, Vector3 damageDirection, List<TypedDamage> typedDamages = null)
 		{
-			if (damage <= 0)
+			if (damage == 0)
 			{
 				OnHitZero?.Invoke();
 				return;
@@ -404,7 +408,10 @@ namespace MoreMountains.CorgiEngine
 
 			if (_animator != null)
 			{
-				_animator.SetTrigger("Damage");
+				if (LastDamage > 0)
+                {
+					_animator.SetTrigger("Damage");
+				}				
 			}
 
 			// we play the damage feedback
@@ -422,7 +429,14 @@ namespace MoreMountains.CorgiEngine
 				// We make the character's sprite flicker
 				if (_renderer != null)
 				{
-					StartCoroutine(MMImage.Flicker(_renderer, _initialColor, FlickerColor, 0.05f, flickerDuration));
+					if (LastDamage > 0)
+                    {
+						StartCoroutine(MMImage.Flicker(_renderer, _initialColor, DamageFlickerColor, 0.05f, flickerDuration));
+					}
+                    else
+                    {
+						StartCoroutine(MMImage.Flicker(_renderer, _initialColor, HealFlickerColor, 0.05f, flickerDuration));
+					}
 				}
 			}
 
@@ -450,6 +464,8 @@ namespace MoreMountains.CorgiEngine
 					CurrentHealth = 0;
 					Kill();
 				}
+
+				CurrentHealth = Mathf.Min(CurrentHealth, MaximumHealth);
 			}
 		}
 

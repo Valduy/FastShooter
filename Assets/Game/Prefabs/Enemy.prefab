@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 11433018}
   - component: {fileID: 114000012396418956}
   - component: {fileID: 114000012715910344}
-  - component: {fileID: 3657338032779246954}
+  - component: {fileID: 8015495022686694920}
   m_Layer: 13
   m_Name: Enemy
   m_TagString: Untagged
@@ -435,7 +435,7 @@ MonoBehaviour:
   TouchTheGroundFeedback: {fileID: 0}
   MinimumAirTimeBeforeFeedback: 0.2
   StopWalkingWhenCollidingWithAWall: 0
---- !u!114 &3657338032779246954
+--- !u!114 &8015495022686694920
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -605,7 +605,7 @@ MonoBehaviour:
   NestDrawnHealthBar: 0
   Billboard: 0
   InstantiatedOnDeath: {fileID: 0}
-  HealthBarOffset: {x: 0, y: 2, z: 0}
+  HealthBarOffset: {x: 0, y: 1, z: 0}
   AlwaysVisible: 1
   DisplayDurationOnHit: 1
   HideBarAtZero: 1
