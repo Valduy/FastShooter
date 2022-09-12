@@ -325,7 +325,7 @@ MonoBehaviour:
   MoveOnSightRayOffset: {x: 0, y: 0.5, z: 0}
   MoveOnSightLayer:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 8389120
   MoveOnSightObstaclesLayer:
     serializedVersion: 2
     m_Bits: 256
@@ -344,7 +344,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TargetLayerMask:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 8389120
   MinDamageCaused: 10
   MaxDamageCaused: 10
   TypedDamages: []
