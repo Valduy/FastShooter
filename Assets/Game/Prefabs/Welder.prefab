@@ -4762,7 +4762,7 @@ GameObject:
   - component: {fileID: 114000013184825386}
   - component: {fileID: 114298975486219334}
   m_Layer: 0
-  m_Name: Gun
+  m_Name: Welder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4836,7 +4836,7 @@ MonoBehaviour:
   TimeBetweenUsesReleaseInterruption: 1
   Interruptable: 0
   InitializeOnStart: 0
-  MagazineBased: 1
+  MagazineBased: 0
   MagazineSize: 7
   AutoReload: 1
   ReloadTime: 2
@@ -4959,7 +4959,7 @@ MonoBehaviour:
   MutualizeWaitingPools: 0
   NestWaitingPool: 1
   NestUnderThis: 0
-  GameObjectToPool: {fileID: 100002, guid: d490ae93da2d6dc4d93efea2a4d621ff, type: 3}
+  GameObjectToPool: {fileID: 100002, guid: 1b960224063ecb24e9039df15edb3ddb, type: 3}
   PoolSize: 20
   PoolCanExpand: 1
 --- !u!1 &1000012097833382
