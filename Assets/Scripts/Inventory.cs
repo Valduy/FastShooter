@@ -1,4 +1,5 @@
 using UnityEngine;
+using System;
 
 public class Inventory : MonoBehaviour
 {
@@ -11,20 +12,21 @@ public class Inventory : MonoBehaviour
     void Start()
     {
         _index = 0;
+        Array.ForEach(_items, i => i.SetEnable(false));
+        Current.SetEnable(true);
     }
 
     public void MoveNext()
     {
+        Current.SetEnable(false);
         _index = (_index + 1) % _items.Length;
+        Current.SetEnable(true);
     }
 
     public void MovePrev()
     {
-        _index -= 1;
-
-        if (_index < 0)
-        {
-            _index = _items.Length - 1;
-        }
+        Current.SetEnable(false);
+        _index = (_index == 0) ? _items.Length - 1 : _index - 1;
+        Current.SetEnable(true);
     }
 }
