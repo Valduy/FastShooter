@@ -17,7 +17,6 @@ GameObject:
   - component: {fileID: 11458864}
   - component: {fileID: 11461966}
   - component: {fileID: 11433018}
-  - component: {fileID: 11479552}
   - component: {fileID: 114000012396418956}
   - component: {fileID: 114000012715910344}
   m_Layer: 13
@@ -322,13 +321,13 @@ MonoBehaviour:
   HoleDetectionRaycastLength: 1
   ViewDistance: 10
   StopDistance: 0
-  MoveOnSightRayOffset: {x: 0, y: 0, z: 0}
+  MoveOnSightRayOffset: {x: 0, y: 0.5, z: 0}
   MoveOnSightLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 512
   MoveOnSightObstaclesLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   ResetPositionOnDeath: 1
 --- !u!114 &11433018
 MonoBehaviour:
@@ -368,30 +367,6 @@ MonoBehaviour:
   HitNonDamageableFeedback: {fileID: 0}
   FreezeFramesOnHitDuration: 0
   Owner: {fileID: 0}
---- !u!114 &11479552
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 144022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50fc24513c89140afa90465a45f5d6fd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  KnockbackForce: {x: 0, y: 20}
-  DamageCausedKnockbackType: 1
-  DamagePerStomp: 10
-  ResetNumberOfJumpsOnStomp: 0
-  InvincibilityDuration: 0.5
-  PlayerMask:
-    serializedVersion: 2
-    m_Bits: 512
-  NumberOfRays: 10
-  RaycastLength: 0.5
-  RaycastVerticalOffset: 0.01
-  StomperMustBeAlive: 1
 --- !u!114 &114000012396418956
 MonoBehaviour:
   m_ObjectHideFlags: 0
