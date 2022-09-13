@@ -334,7 +334,7 @@ MonoBehaviour:
   AbilityPermitted: 1
   BlockingMovementStates: 
   BlockingConditionStates: 
-  InitialWeapon: {fileID: 114000010078180980, guid: 56706d74e8c081a4e95bda996324b840,
+  InitialWeapon: {fileID: 114000010078180980, guid: 7ccaa0f30c5a03d4297b4d152ee1582e,
     type: 3}
   CanPickupWeapons: 1
   WeaponAttachment: {fileID: 425048}
@@ -373,8 +373,7 @@ MonoBehaviour:
   DamageFeedbacks: {fileID: 1159074697136316710}
   FeedbackIsProportionalToDamage: 0
   FlickerSpriteOnHit: 1
-  DamageFlickerColor: {r: 1, g: 0.078431375, b: 0.078431375, a: 1}
-  HealFlickerColor: {r: 0.078431375, g: 1, b: 0.078431375, a: 1}
+  FlickerColor: {r: 1, g: 0.078431375, b: 0.078431375, a: 1}
   ImmuneToKnockback: 0
   ImmuneToKnockbackIfZeroDamage: 0
   DeathFeedbacks: {fileID: 1527780577824011739}

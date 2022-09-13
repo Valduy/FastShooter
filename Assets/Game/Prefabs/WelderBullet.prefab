@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 61000013902612140}
   - component: {fileID: 50000011384318294}
   - component: {fileID: 114000013697282846}
-  - component: {fileID: 114000012788668036}
   - component: {fileID: 114000010281602892}
+  - component: {fileID: 2793604264099851264}
   m_Layer: 16
   m_Name: WelderBullet
   m_TagString: Untagged
@@ -171,44 +171,6 @@ MonoBehaviour:
   SpawnSecurityCheckLayerMask:
     serializedVersion: 2
     m_Bits: 0
---- !u!114 &114000012788668036
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100002}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76891b3b532f84acaaeed44c357bd00c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TargetLayerMask:
-    serializedVersion: 2
-    m_Bits: 8388864
-  MinDamageCaused: -10
-  MaxDamageCaused: -10
-  TypedDamages: []
-  DamageCausedKnockbackType: 0
-  DamageCausedKnockbackDirection: 0
-  DamageCausedKnockbackForce: {x: 10, y: 2}
-  InvincibilityDuration: 0.5
-  RepeatDamageOverTime: 0
-  AmountOfRepeats: 3
-  DurationBetweenRepeats: 1
-  DamageOverTimeInterruptible: 1
-  RepeatedDamageType: {fileID: 0}
-  DamageTakenEveryTime: 10
-  DamageTakenDamageable: 5
-  DamageTakenNonDamageable: 10
-  DamageTakenKnockbackType: 0
-  DamageTakenKnockbackDirection: 0
-  DamageTakenKnockbackForce: {x: 0, y: 0}
-  DamageTakenInvincibilityDuration: 0
-  HitDamageableFeedback: {fileID: 0}
-  HitNonDamageableFeedback: {fileID: 0}
-  FreezeFramesOnHitDuration: 0
-  Owner: {fileID: 0}
 --- !u!114 &114000010281602892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -231,8 +193,7 @@ MonoBehaviour:
   DamageFeedbacks: {fileID: 6827168327657764305}
   FeedbackIsProportionalToDamage: 0
   FlickerSpriteOnHit: 1
-  DamageFlickerColor: {r: 1, g: 0.078431375, b: 0.078431375, a: 1}
-  HealFlickerColor: {r: 1, g: 0.078431375, b: 0.078431375, a: 1}
+  FlickerColor: {r: 1, g: 0.078431375, b: 0.078431375, a: 1}
   ImmuneToKnockback: 0
   ImmuneToKnockbackIfZeroDamage: 0
   DeathFeedbacks: {fileID: 5899266940824776853}
@@ -250,6 +211,31 @@ MonoBehaviour:
   UseMaterialPropertyBlocks: 0
   MasterHealth: {fileID: 0}
   TargetDamageResistanceProcessor: {fileID: 0}
+--- !u!114 &2793604264099851264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474d1130a7b89964186ad729319a527b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetLayerMask:
+    serializedVersion: 2
+    m_Bits: 8388864
+  MinHealCaused: 10
+  MaxHealCaused: 10
+  DamageTakenEveryTime: 0
+  DamageTakenDamageable: 10
+  DamageTakenNonDamageable: 10
+  DamageTakenInvincibilityDuration: 0
+  HitDamageableFeedback: {fileID: 0}
+  HitNonDamageableFeedback: {fileID: 0}
+  FreezeFramesOnHitDuration: 0
+  Owner: {fileID: 0}
 --- !u!1 &7758844376465442526
 GameObject:
   m_ObjectHideFlags: 0
