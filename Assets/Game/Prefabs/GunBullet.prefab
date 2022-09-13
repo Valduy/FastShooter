@@ -231,8 +231,7 @@ MonoBehaviour:
   DamageFeedbacks: {fileID: 6827168327657764305}
   FeedbackIsProportionalToDamage: 0
   FlickerSpriteOnHit: 1
-  DamageFlickerColor: {r: 1, g: 0.078431375, b: 0.078431375, a: 1}
-  HealFlickerColor: {r: 1, g: 0.078431375, b: 0.078431375, a: 1}
+  FlickerColor: {r: 1, g: 0.078431375, b: 0.078431375, a: 1}
   ImmuneToKnockback: 0
   ImmuneToKnockbackIfZeroDamage: 0
   DeathFeedbacks: {fileID: 5899266940824776853}

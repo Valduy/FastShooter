@@ -68,9 +68,13 @@ namespace MoreMountains.InventoryEngine
 		[HideInInspector]
 		/// the base quantity of this item
 		public int Quantity = 1;
+        //public int Quantity
+        //{
+        //    get => 1;
+        //    set { }
+        //}
 
-
-		[Header("Basic info")]
+        [Header("Basic info")]
 		/// the name of the item - will be displayed in the details panel
 		[MMInformation("The name of the item as you want it to appear in the display panel",MMInformationAttribute.InformationType.Info,false)]
 		public string ItemName;

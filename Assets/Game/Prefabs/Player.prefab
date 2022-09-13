@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 114000011356687900}
   - component: {fileID: 114522235302448242}
   - component: {fileID: 114408133200064378}
+  - component: {fileID: 9074210092209006324}
   m_Layer: 9
   m_Name: Player
   m_TagString: Player
@@ -334,8 +335,7 @@ MonoBehaviour:
   AbilityPermitted: 1
   BlockingMovementStates: 
   BlockingConditionStates: 
-  InitialWeapon: {fileID: 114000010078180980, guid: 7ccaa0f30c5a03d4297b4d152ee1582e,
-    type: 3}
+  InitialWeapon: {fileID: 0}
   CanPickupWeapons: 1
   WeaponAttachment: {fileID: 425048}
   ForceWeaponScaleResetOnEquip: 0
@@ -603,6 +603,34 @@ MonoBehaviour:
   TransitionForcesMode: 1
   ResetCharacterStateOnGravityChange: 1
   DrawDebugGravityArrow: 1
+--- !u!114 &9074210092209006324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 119040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a99d20994733989408d3700750a41df2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AbilityStartFeedbacks: {fileID: 0}
+  AbilityStopFeedbacks: {fileID: 0}
+  AbilityPermitted: 1
+  BlockingMovementStates: 
+  BlockingConditionStates: 
+  PlayerID: Player1
+  MainInventoryName: MainInventory
+  WeaponInventoryName: WeaponInventory
+  HotbarInventoryName: 
+  AutoEquipWeaponOnCharacterSwitch: 1
+  WeaponRotationMode: 0
+  CharacterHandleWeapon: {fileID: 114000010795265024}
+  InventoryTransform: {fileID: 0}
+  AutoAddItemsMainInventory: []
+  AutoAddItemsHotbar: []
+  AutoEquipWeapon: {fileID: 0}
 --- !u!1 &159142
 GameObject:
   m_ObjectHideFlags: 0

@@ -4757,7 +4757,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4000013472678096}
-  - component: {fileID: 114000013241137692}
   - component: {fileID: 114000010078180980}
   - component: {fileID: 114000013184825386}
   - component: {fileID: 114298975486219334}
@@ -4789,34 +4788,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114000013241137692
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1000010407495960}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0514d297deadac74fb15a7b7326ff0d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AimControl: 0
-  RotationMode: 1
-  WeaponRotationSpeed: 0
-  InstantFlip: 0
-  MinimumAngle: -180
-  MaximumAngle: 180
-  IgnoreSlopeRotation: 0
-  IgnoreDownWhenGrounded: 0
-  Reticle: {fileID: 0}
-  DisplayReticle: 1
-  ReticleDistance: 4
-  ReticleZPosition: 0
-  ReticleAtMousePosition: 0
-  RotateReticle: 1
-  ReplaceMousePointer: 1
-  DisableReticleOnDeath: 1
 --- !u!114 &114000010078180980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4836,7 +4807,7 @@ MonoBehaviour:
   TimeBetweenUsesReleaseInterruption: 1
   Interruptable: 0
   InitializeOnStart: 0
-  MagazineBased: 1
+  MagazineBased: 0
   MagazineSize: 7
   AutoReload: 1
   ReloadTime: 2
@@ -4956,7 +4927,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b7277539b95c0d45895792ecc99ce66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MutualizeWaitingPools: 0
+  MutualizeWaitingPools: 1
   NestWaitingPool: 1
   NestUnderThis: 0
   GameObjectToPool: {fileID: 100002, guid: d490ae93da2d6dc4d93efea2a4d621ff, type: 3}
