@@ -4685,7 +4685,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 36059a6b5a5000a469004894f2d1d69e, type: 2}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4943,7 +4942,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4000012754714512}
   - component: {fileID: 212000011416355666}
-  - component: {fileID: 114783270015307976}
+  - component: {fileID: 8462675967196750653}
   m_Layer: 0
   m_Name: MachineGun
   m_TagString: Untagged
@@ -5006,19 +5005,19 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1628607475
   m_SortingLayer: 2
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: d926550b6fca5488b9b76f2733af1c45, type: 3}
+  m_SortingOrder: 5
+  m_Sprite: {fileID: 21300000, guid: d3ebb78dc5525ea4699f7fb7dda90780, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 3.48, y: 5.52}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &114783270015307976
+--- !u!114 &8462675967196750653
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9795,7 +9794,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 0e1495cd2b1257b419c4c5668cd82472, type: 2}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
