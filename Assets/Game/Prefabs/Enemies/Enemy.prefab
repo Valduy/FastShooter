@@ -316,7 +316,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WalkBehaviour: 1
-  ChangeDirectionOnWall: 1
+  ChangeDirectionOnWall: 0
   AvoidFalling: 1
   HoleDetectionOffset: {x: 0, y: 0, z: 0}
   HoleDetectionRaycastLength: 1
