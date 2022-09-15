@@ -139,7 +139,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TargetLayerMask:
     serializedVersion: 2
-    m_Bits: 271104
+    m_Bits: 512
   MinDamageCaused: 100
   MaxDamageCaused: 100
   TypedDamages: []

@@ -85,12 +85,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: bd2bf0c6d4c3b984ba753e17367b58a6, type: 3}
+  m_Sprite: {fileID: 1534409171, guid: fd3f943640b0de240aff1a15cad5e653, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 3.8399997, y: 3.8399997}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -106,7 +106,7 @@ Animator:
   m_GameObject: {fileID: 144022}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4a97937e1e715844d8f1ad165177fc61, type: 2}
+  m_Controller: {fileID: 9100000, guid: 6908e6721d757b64bb2ad129223da980, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -150,18 +150,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.98}
+  m_Offset: {x: 0, y: 0.6}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
-    oldSize: {x: 3.76, y: 2.61}
-    newSize: {x: 1, y: 1}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.8399997, y: 3.8399997}
+    newSize: {x: 3.8399997, y: 3.8399997}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.01, y: 1.93}
+  m_Size: {x: 2.5, y: 2}
   m_EdgeRadius: 0
 --- !u!114 &11450720
 MonoBehaviour:
@@ -322,7 +322,7 @@ MonoBehaviour:
   HoleDetectionRaycastLength: 1
   ViewDistance: 10
   StopDistance: 0
-  MoveOnSightRayOffset: {x: 0, y: 0.5, z: 0}
+  MoveOnSightRayOffset: {x: 0, y: 0.2, z: 0}
   MoveOnSightLayer:
     serializedVersion: 2
     m_Bits: 8389120
@@ -605,7 +605,7 @@ MonoBehaviour:
   NestDrawnHealthBar: 0
   Billboard: 0
   InstantiatedOnDeath: {fileID: 0}
-  HealthBarOffset: {x: 0, y: 1, z: 0}
+  HealthBarOffset: {x: 0, y: 2, z: 0}
   AlwaysVisible: 1
   DisplayDurationOnHit: 1
   HideBarAtZero: 1
