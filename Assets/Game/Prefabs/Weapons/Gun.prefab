@@ -4893,7 +4893,7 @@ MonoBehaviour:
   Spread: {x: 0, y: 0, z: 0}
   RotateWeaponOnSpread: 0
   RandomSpread: 1
-  SpawnPosition: {x: -71.060005, y: -1.38, z: 0}
+  SpawnPosition: {x: 0.7, y: 0, z: 0}
 --- !u!114 &114000013184825386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5005,7 +5005,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1628607475
   m_SortingLayer: 2
-  m_SortingOrder: 5
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: d3ebb78dc5525ea4699f7fb7dda90780, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
