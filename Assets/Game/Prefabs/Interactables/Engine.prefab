@@ -790,7 +790,7 @@ MonoBehaviour:
   DebugActive: 0
   Mode: 1
   CachedRecycle: 1
-  ParticlesPrefab: {fileID: 19800000, guid: 5c89a1c1072915d4fb9356e161ede976, type: 3}
+  ParticlesPrefab: {fileID: 19800000, guid: 176ed50eeb66ad74badd1d6eb15bf23e, type: 3}
   RandomParticlePrefabs: []
   ForceSetActiveOnPlay: 0
   PositionMode: 0
@@ -872,8 +872,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1628607475
-  m_SortingLayer: 2
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -1203632138, guid: 7d65bfabb5ed819449fc25b9f5d2cb51, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

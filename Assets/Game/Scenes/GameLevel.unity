@@ -3699,6 +3699,14 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 21274636, guid: 5794f02210214dd4c895a1a895501fe7, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 21274636, guid: 5794f02210214dd4c895a1a895501fe7, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1628607475
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5794f02210214dd4c895a1a895501fe7, type: 3}
 --- !u!1 &1858949005
