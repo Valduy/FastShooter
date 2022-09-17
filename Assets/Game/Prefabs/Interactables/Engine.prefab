@@ -54,18 +54,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.08}
+  m_Offset: {x: 0, y: -0.03904009}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.56, y: 2.56}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.35, y: 0.6}
+  m_Size: {x: 1, y: 1.0780802}
   m_EdgeRadius: 0
 --- !u!50 &5049808
 Rigidbody2D:
@@ -236,8 +236,7 @@ MonoBehaviour:
   DamageFeedbacks: {fileID: 1159074697136316710}
   FeedbackIsProportionalToDamage: 0
   FlickerSpriteOnHit: 1
-  DamageFlickerColor: {r: 1, g: 0.078431375, b: 0.078431375, a: 1}
-  HealFlickerColor: {r: 0.07843137, g: 1, b: 0.078431375, a: 1}
+  FlickerColor: {r: 1, g: 0.078431375, b: 0.078431375, a: 1}
   ImmuneToKnockback: 0
   ImmuneToKnockbackIfZeroDamage: 0
   DeathFeedbacks: {fileID: 1527780577824011739}
@@ -876,12 +875,12 @@ SpriteRenderer:
   m_SortingLayerID: -1628607475
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 435a2d27a31b7e942bf80841ed053ca1, type: 3}
+  m_Sprite: {fileID: -1203632138, guid: 7d65bfabb5ed819449fc25b9f5d2cb51, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 3.84, y: 3.8474998}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -914,7 +913,7 @@ Animator:
   m_GameObject: {fileID: 6707816943335508271}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 61d870ee06a7ed640a3ff34bf793f084, type: 2}
+  m_Controller: {fileID: 9100000, guid: 3d079509fe6e0e042997c9eb9c0ab8c1, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
