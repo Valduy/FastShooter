@@ -276,8 +276,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentHealth: 0
-  InitialHealth: 100
-  MaximumHealth: 100
+  InitialHealth: 10
+  MaximumHealth: 10
   Invulnerable: 0
   TemporarilyInvulnerable: 0
   PostDamageInvulnerable: 0
@@ -812,13 +812,13 @@ MonoBehaviour:
   DebugActive: 0
   Mode: 1
   CachedRecycle: 1
-  ParticlesPrefab: {fileID: 19800000, guid: 3cfe3f9255d7aa444ad3511f18f36a43, type: 3}
+  ParticlesPrefab: {fileID: 19800000, guid: 176ed50eeb66ad74badd1d6eb15bf23e, type: 3}
   RandomParticlePrefabs: []
   ForceSetActiveOnPlay: 0
   PositionMode: 0
   InstantiateParticlesPosition: {fileID: 0}
   TargetWorldPosition: {x: 0, y: 0, z: 0}
-  Offset: {x: 0, y: 0, z: 0}
+  Offset: {x: 0, y: 1, z: 0}
   NestParticles: 0
   ApplyRotation: 0
   ApplyScale: 0
