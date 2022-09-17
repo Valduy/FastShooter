@@ -4894,7 +4894,7 @@ MonoBehaviour:
   Spread: {x: 0, y: 0, z: 0}
   RotateWeaponOnSpread: 0
   RandomSpread: 1
-  SpawnPosition: {x: -71.060005, y: -1.38, z: 0}
+  SpawnPosition: {x: 0.7, y: 0, z: 0}
 --- !u!114 &114000013184825386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4959,7 +4959,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1000012097833382}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.1, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.1, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5006,8 +5006,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1628607475
   m_SortingLayer: 2
-  m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: d926550b6fca5488b9b76f2733af1c45, type: 3}
+  m_SortingOrder: 10
+  m_Sprite: {fileID: 21300000, guid: 41b7ff59c41821d45a246b1ced7d8797, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

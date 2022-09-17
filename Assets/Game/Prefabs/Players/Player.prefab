@@ -1071,7 +1071,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeb67f1f5c67282488b877818e410f30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalCounterIncrement: 5
+  GlobalCounterIncrement: 0
   BasedOnParentOrder: 0
   ParentIncrement: 1
   ApplyNewOrderToChildren: 0
