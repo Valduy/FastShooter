@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class EnemyWavesSpawner : MonoBehaviour
+public class WavesSpawner : MonoBehaviour
 {
     private float _actualEnemyCount;
     private List<GameObject> _spawnedEnemies;
@@ -15,8 +15,10 @@ public class EnemyWavesSpawner : MonoBehaviour
     public float TimeBetweenSpawns;
     public float Multiplier;
 
-    public GameObject Prefab;
-    public SpawnPoint[] SpawnPoints;
+    public GameObject EnemyPrefab;
+    public GameObject AidKitPrefab;
+    public SpawnPoint[] EnemySpawnPoints;
+    public GameObject[] AidKitSpawnPoints;
 
     void Start()
     {
@@ -36,7 +38,7 @@ public class EnemyWavesSpawner : MonoBehaviour
 
             for (int i = 0; i < EnemyCount; i++)
             {
-                SpawnEnemy(GetRandomSpawnPointPosition());
+                SpawnEnemy(GetRandomEnemySpawnPointPosition());
                 yield return new WaitForSeconds(TimeBetweenSpawns);
             }
 
@@ -44,6 +46,12 @@ public class EnemyWavesSpawner : MonoBehaviour
             EnemyCount = (int)_actualEnemyCount;
 
             yield return WaitForWaveDeath();
+
+            foreach (var aidKitSpwan in AidKitSpawnPoints)
+            {
+                var aidKit = Instantiate(AidKitPrefab, aidKitSpwan.transform.position, Quaternion.identity);
+                aidKit.SetActive(true);
+            }
         }
     }
 
@@ -57,7 +65,7 @@ public class EnemyWavesSpawner : MonoBehaviour
         }
         else
         {
-            enemy = Instantiate(Prefab, position, Quaternion.identity);
+            enemy = Instantiate(EnemyPrefab, position, Quaternion.identity);
             _spawnedEnemies.Add(enemy);
         }
 
@@ -74,9 +82,9 @@ public class EnemyWavesSpawner : MonoBehaviour
         }
     }
 
-    private Vector3 GetRandomSpawnPointPosition()
+    private Vector3 GetRandomEnemySpawnPointPosition()
     {
-        var enableSpawnPoints = SpawnPoints.Where(sp => sp.IsEnable).ToList();
+        var enableSpawnPoints = EnemySpawnPoints.Where(sp => sp.IsEnable).ToList();
         var randomSpawnPoint = enableSpawnPoints[Random.Range(0, enableSpawnPoints.Count)];
         return randomSpawnPoint.transform.position;
     }
