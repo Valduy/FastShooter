@@ -631,21 +631,21 @@ namespace MoreMountains.CorgiEngine
 		/// </summary>
 		protected virtual void DestroyObject()
 		{
-			if (!DestroyOnDeath)
-			{
-				return;
-			}
+            if (!DestroyOnDeath)
+            {
+                return;
+            }
 
-			if (_autoRespawn == null)
-			{
-				// object is turned inactive to be able to reinstate it at respawn
-				gameObject.SetActive(false);
-			}
-			else
-			{
-				_autoRespawn.Kill();
-			}
-		}
+            if (_autoRespawn == null)
+            {
+                // object is turned inactive to be able to reinstate it at respawn
+                gameObject.SetActive(false);
+            }
+            else
+            {
+                _autoRespawn.Kill();
+            }
+        }
 		
 		/// <summary>
 		/// Interrupts all damage over time, regardless of type
