@@ -8,6 +8,8 @@ TagManager:
   - Music
   - Background
   - NoMask
+  - Enemy
+  - Interactable
   layers:
   - Default
   - TransparentFX
