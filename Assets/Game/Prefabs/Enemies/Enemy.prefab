@@ -82,8 +82,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1628607475
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -91702026, guid: 9c7ff7347bf4a074b9927e4689792832, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -276,8 +276,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentHealth: 0
-  InitialHealth: 10
-  MaximumHealth: 10
+  InitialHealth: 30
+  MaximumHealth: 30
   Invulnerable: 0
   TemporarilyInvulnerable: 0
   PostDamageInvulnerable: 0
@@ -320,7 +320,7 @@ MonoBehaviour:
   AvoidFalling: 1
   HoleDetectionOffset: {x: 0, y: 0, z: 0}
   HoleDetectionRaycastLength: 1
-  ViewDistance: 10
+  ViewDistance: 100
   StopDistance: 0
   MoveOnSightRayOffset: {x: 0, y: 0.3, z: 0}
   MoveOnSightLayer:
