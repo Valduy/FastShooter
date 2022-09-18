@@ -562,6 +562,7 @@ GameObject:
   - component: {fileID: 213527048}
   - component: {fileID: 213527047}
   - component: {fileID: 213527049}
+  - component: {fileID: 213527050}
   m_Layer: 21
   m_Name: LevelManager
   m_TagString: Untagged
@@ -811,6 +812,24 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &213527050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213527044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bbc9499ad2d97d4582596f3a989d382, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameWinScene: RetroAdventureGameOver
+  Speed: 1
+  MaxDistance: 200
+  Engines:
+  - {fileID: 1164730679}
+  - {fileID: 1300700429}
 --- !u!1 &251034868
 GameObject:
   m_ObjectHideFlags: 0
@@ -2763,7 +2782,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 119040, guid: 4e5ee88501744b84691c9ac86d82e2bd, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Interactable
       objectReference: {fileID: 0}
     - target: {fileID: 425048, guid: 4e5ee88501744b84691c9ac86d82e2bd, type: 3}
       propertyPath: m_RootOrder
@@ -3241,7 +3260,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 119040, guid: 4e5ee88501744b84691c9ac86d82e2bd, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Interactable
       objectReference: {fileID: 0}
     - target: {fileID: 425048, guid: 4e5ee88501744b84691c9ac86d82e2bd, type: 3}
       propertyPath: m_RootOrder
@@ -4669,30 +4688,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4f7445f06b9e374a9d3e86120c1ebb7, type: 3}
---- !u!1 &7677920406691276261 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1815376234276069595, guid: f4f7445f06b9e374a9d3e86120c1ebb7,
-    type: 3}
-  m_PrefabInstance: {fileID: 7677920406691276260}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &7677920406691276262
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7677920406691276261}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2bbc9499ad2d97d4582596f3a989d382, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  GameWinScene: RetroAdventureGameOver
-  Speed: 1
-  MaxDistance: 200
-  Engines:
-  - {fileID: 1164730679}
-  - {fileID: 1300700429}
 --- !u!1001 &8040196612217246658
 PrefabInstance:
   m_ObjectHideFlags: 0
