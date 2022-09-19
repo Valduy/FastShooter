@@ -1,6 +1,7 @@
 using MoreMountains.CorgiEngine;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TrainGameManager : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class TrainGameManager : MonoBehaviour
     public string GameWinScene;
     public float Speed;
     public float MaxDistance;
+    public Slider TrainSlider;
     public Health[] Engines;
 
     public void Start()
@@ -36,7 +38,7 @@ public class TrainGameManager : MonoBehaviour
         }
 
         _currentDistance += multiplier * Speed * Time.fixedDeltaTime;
-        Debug.Log($"{_currentDistance} / {MaxDistance}");
+        TrainSlider.value = _currentDistance / MaxDistance;
 
         if (_currentDistance >= MaxDistance)
         {
