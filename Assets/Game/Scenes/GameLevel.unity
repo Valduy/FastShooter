@@ -824,7 +824,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bbc9499ad2d97d4582596f3a989d382, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GameWinScene: RetroAdventureGameOver
+  GameWinScene: YouWin
   Speed: 1
   MaxDistance: 200
   Engines:
@@ -4625,6 +4625,11 @@ PrefabInstance:
         type: 3}
       propertyPath: MaximumLives
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 701522085186635658, guid: f4f7445f06b9e374a9d3e86120c1ebb7,
+        type: 3}
+      propertyPath: GameOverScene
+      value: YouLose
       objectReference: {fileID: 0}
     - target: {fileID: 1815376234276069595, guid: f4f7445f06b9e374a9d3e86120c1ebb7,
         type: 3}
