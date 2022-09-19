@@ -1,8 +1,8 @@
 # FastShooter
 Project for mobile game development classes
 
-A - left
-D - right
-Space - jump
-E - shoot
+A - left <br />
+D - right <br />
+Space - jump <br />
+E - shoot <br />
 T - chenge weapon
