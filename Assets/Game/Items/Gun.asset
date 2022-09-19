@@ -33,7 +33,7 @@ MonoBehaviour:
     DisplayUnequipButton: 1
   Quantity: 0
   ItemName: Gun
-  ShortDescription: Everybody jumps from the sound of the shotgun.
+  ShortDescription: Big gun.
   Description: A smooth-bore gun for firing small shot at short range.
   Icon: {fileID: 21300026, guid: f3f4293ccdddd34468f58745d608416e, type: 3}
   Prefab: {fileID: 1884810478697366, guid: 54910a7ba82a1ee4cb31f44b24abf75d, type: 3}
