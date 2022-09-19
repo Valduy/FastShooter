@@ -33,7 +33,7 @@ MonoBehaviour:
     DisplayUnequipButton: 1
   Quantity: 0
   ItemName: Welder
-  ShortDescription: Tearing my body all apart
+  ShortDescription: Welder for welding.
   Description: An automatic gun that fires bullets in rapid succession for as long
     as the trigger is pressed.
   Icon: {fileID: 21300002, guid: f3f4293ccdddd34468f58745d608416e, type: 3}
