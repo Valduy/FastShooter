@@ -22,6 +22,9 @@ namespace MoreMountains.CorgiEngine
 		/// the jetpack bar
 		[Tooltip("the jetpack bar")]
 		public MMProgressBar[] JetPackBars;
+		/// the enemy indicator
+		[Tooltip("the enemy indicator")]
+		public EnemyIndicator Indicator;
 		/// the panels and bars used to display current weapon ammo
 		[Tooltip("the panels and bars used to display current weapon ammo")]
 		public AmmoDisplay[] AmmoDisplays;
@@ -226,6 +229,16 @@ namespace MoreMountains.CorgiEngine
 					}					
 				}
 			}
+		}
+
+		public virtual void SetLeftVisible(bool isVisible)
+        {
+			Indicator?.SetLeftVisibility(isVisible);
+        }
+
+		public virtual void SetRightVisible(bool isVisible)
+		{
+			Indicator?.SetRightVisibility(isVisible);
 		}
 
 		/// <summary>
