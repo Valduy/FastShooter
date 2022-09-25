@@ -215,7 +215,7 @@ namespace MoreMountains.CorgiEngine
 		{
 			Application.targetFrameRate = TargetFrameRate;
 			_initialCurrentLives = CurrentLives;
-			_initialMaximumLives = MaximumLives;            
+			_initialMaximumLives = MaximumLives;
 		}
 					
 		/// <summary>

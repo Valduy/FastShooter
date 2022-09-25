@@ -51,6 +51,7 @@ public class TrainGameManager : MonoBehaviour
     {
         foreach (var player in GameObject.FindGameObjectsWithTag("Player"))
         {
+            Debug.Log($"Lives: {GameManager.Instance.MaximumLives}");
             LevelManager.Instance.PlayerDead(player.GetComponent<Character>());
         }
     }

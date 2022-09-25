@@ -16,7 +16,6 @@ GameObject:
   - component: {fileID: 11485350}
   - component: {fileID: 11455042}
   - component: {fileID: 11431242}
-  - component: {fileID: 11455680}
   - component: {fileID: 114000010795265024}
   - component: {fileID: 114000011356687900}
   - component: {fileID: 114408133200064378}
@@ -300,23 +299,6 @@ MonoBehaviour:
   AirJumpFeedbacks: {fileID: 0}
   DoubleJumpFeedbacks: {fileID: 0}
   NumberOfJumpsLeft: 0
---- !u!114 &11455680
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 119040}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f59e06702d6be45948936bd909420d61, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AbilityStartFeedbacks: {fileID: 0}
-  AbilityStopFeedbacks: {fileID: 0}
-  AbilityPermitted: 1
-  BlockingMovementStates: 
-  BlockingConditionStates: 
 --- !u!114 &114000010795265024
 MonoBehaviour:
   m_ObjectHideFlags: 0
