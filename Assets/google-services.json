@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "30366528971",
+    "project_id": "fastshooter-1233a",
+    "storage_bucket": "fastshooter-1233a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30366528971:android:9d7fbb85dce2f6c88f324e",
+        "android_client_info": {
+          "package_name": "com.telepaths.FastShoter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30366528971-epduhf9aqhct61td6cqenmeffi6k7e80.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCaYhJolg9XLNY7-J4tBmUHxPEJFIdNkA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30366528971-epduhf9aqhct61td6cqenmeffi6k7e80.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

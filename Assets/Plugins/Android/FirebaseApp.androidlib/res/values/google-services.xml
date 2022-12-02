@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id">
+  <string name="gcm_defaultSenderId" translatable="false">30366528971</string>
+  <string name="google_storage_bucket" translatable="false">fastshooter-1233a.appspot.com</string>
+  <string name="project_id" translatable="false">fastshooter-1233a</string>
+  <string name="google_api_key" translatable="false">AIzaSyCCaYhJolg9XLNY7-J4tBmUHxPEJFIdNkA</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCCaYhJolg9XLNY7-J4tBmUHxPEJFIdNkA</string>
+  <string name="google_app_id" translatable="false">1:30366528971:android:9d7fbb85dce2f6c88f324e</string>
+  <string name="default_web_client_id" translatable="false">30366528971-epduhf9aqhct61td6cqenmeffi6k7e80.apps.googleusercontent.com</string>
+</resources>
